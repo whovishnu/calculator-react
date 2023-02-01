@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  position: 0px;
+  margin: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  color: white;
+  padding-top: 20px;
+  background-image: linear-gradient(to right, #3f114b, #9c4fad);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.output {
+  height: 150px;
+  background-color: #2a2e37;
+  color: white;
+  font-size: 36px;
+}
+.border {
+  border: 3px solid white;
+  width: 250px;
+  margin: 20px;
+  border-radius: 18px;
+}
+.btn {
+  height: 60px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e3646;
+  color: white;
+  border: none;
+}
+.btn1 {
+  color: #c45bdc;
+}
+.btn2 {
+  color: white;
+  background-color: #c45bdc;
+}
+
+.buttons {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.pre {
+  font-size: 14px;
+}
+
+.typeing {
+  height: 40px;
+}
+
+#bottom-right {
+  border-bottom-right-radius: 18px;
+}
+
+#bottom-left {
+  border-bottom-left-radius: 18px;
+}
